@@ -1,0 +1,46 @@
+NAME
+    SparkX::Form::BasicFields - A collection of basic fields for Spark::Form
+
+    Spark::Form is a way to define your own forms with validation and
+    auto-printing. See that module for more information.
+
+    This file is just explanatory. SEE ALSO for more interesting files.
+
+VERSION
+    Version 0.01
+
+SEE ALSO
+    Spark::Form - The forms handling system itself SparkX::BasicValidators -
+    If you want to have validation of these fields SparkX::Form::Field::Text
+    - A text field SparkX::Form::Field::Checkbox - A checkbox field
+    SparkX::Form::Field::Radio - A radio button set
+    SparkX::Form::Field::Select - A select button set
+    SparkX::Form::Field::TextArea - A textarea field
+
+AUTHOR
+    James Laver, "<printf(qw[%s@%s.%s cpan jameslaver com])>"
+
+BUGS
+    Please report any bugs or feature requests to
+    "bug-sparkx-form-basicfields at rt.cpan.org", or through the web
+    interface at
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=SparkX-Form-BasicFields>
+    . I will be notified, and then you'll automatically be notified of
+    progress on your bug as I make changes.
+
+SUPPORT
+    *   RT: CPAN's request tracker
+
+        <http://rt.cpan.org/NoAuth/Bugs.html?Dist=SparkX-Form-BasicFields>
+
+    *   AnnoCPAN: Annotated CPAN documentation
+
+        <http://annocpan.org/dist/SparkX-Form-BasicFields>
+
+ACKNOWLEDGEMENTS
+COPYRIGHT & LICENSE
+    Copyright 2009 James Laver, all rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

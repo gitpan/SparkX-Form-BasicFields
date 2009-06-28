@@ -1,0 +1,52 @@
+---
+name: SparkX-Form-BasicFields
+version: 0.01
+author:
+  - 'James Laver <printf(qw[%s@%s.%s cpan jameslaver com])>'
+abstract: A set of basic fields for use with Spark::Form
+license: perl
+resources:
+  license: ~
+requires:
+  HTML::Tiny: 0
+  List::Util: 0
+  Moose: 0
+  Spark::Form: 0.1
+build_requires:
+  Test::MockObject: 0
+  Test::MockObject::Extends: 0
+  Test::More: 0
+provides:
+  SparkX::Form::BasicFields:
+    file: lib/SparkX/Form/BasicFields.pm
+    version: 0.01
+  SparkX::Form::Field::Button:
+    file: lib/SparkX/Form/Field/Button.pm
+  SparkX::Form::Field::Checkbox:
+    file: lib/SparkX/Form/Field/Checkbox.pm
+  SparkX::Form::Field::File:
+    file: lib/SparkX/Form/Field/File.pm
+  SparkX::Form::Field::Hidden:
+    file: lib/SparkX/Form/Field/Hidden.pm
+  SparkX::Form::Field::Image:
+    file: lib/SparkX/Form/Field/Image.pm
+  SparkX::Form::Field::MultiSelect:
+    file: lib/SparkX/Form/Field/MultiSelect.pm
+  SparkX::Form::Field::Password:
+    file: lib/SparkX/Form/Field/Password.pm
+  SparkX::Form::Field::Radio:
+    file: lib/SparkX/Form/Field/Radio.pm
+  SparkX::Form::Field::Reset:
+    file: lib/SparkX/Form/Field/Reset.pm
+  SparkX::Form::Field::Select:
+    file: lib/SparkX/Form/Field/Select.pm
+  SparkX::Form::Field::Submit:
+    file: lib/SparkX/Form/Field/Submit.pm
+  SparkX::Form::Field::Text:
+    file: lib/SparkX/Form/Field/Text.pm
+  SparkX::Form::Field::Textarea:
+    file: lib/SparkX/Form/Field/Textarea.pm
+generated_by: Module::Build version 0.32
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
