@@ -13,6 +13,7 @@ has '+value' => (
 
 has 'names' => (
     lazy => 1,
+    (Moose->VERSION >= 0.84 ) ? (is => 'bare') : (),
     default => sub {
         my $self = shift;
 

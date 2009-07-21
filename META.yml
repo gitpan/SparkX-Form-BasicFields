@@ -1,6 +1,6 @@
 ---
 name: SparkX-Form-BasicFields
-version: 0.01
+version: 0.2
 author:
   - 'James Laver <printf(qw[%s@%s.%s cpan jameslaver com])>'
 abstract: A set of basic fields for use with Spark::Form
@@ -19,7 +19,7 @@ build_requires:
 provides:
   SparkX::Form::BasicFields:
     file: lib/SparkX/Form/BasicFields.pm
-    version: 0.01
+    version: 0.2
   SparkX::Form::Field::Button:
     file: lib/SparkX/Form/Field/Button.pm
   SparkX::Form::Field::Checkbox:
